@@ -1,4 +1,4 @@
-let BASE_URL = 'http://localhost:8000/'
+let BASE_URL = 'http://blackjack-back-mb.herokuapp.com/'
 const login = async (userObject) => {
   let res = await fetch(`${BASE_URL}token-auth/`, {
     method: 'POST',
@@ -19,16 +19,6 @@ const getLoggedInUser = (token) => {
     }
   }).then(res => res)
 };
-
-// const signupUser = (userObject) => {
-//   return fetch(`${BASE_URL}api/users/`, {
-//     method: 'POST',
-//     headers: {
-//       'Content-Type': 'application/json'
-//     },
-//     body: JSON.stringify(userObject)
-//   }).then(res=>res)
-// };
 
 const signupUser = async (userObject) => {
   let res = await fetch(`${BASE_URL}api/users/`, {
