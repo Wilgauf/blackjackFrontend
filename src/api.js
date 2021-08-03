@@ -1,4 +1,4 @@
-let BASE_URL = 'https://cors-anywhere.herokuapp.com/https://blackjack-back-mb.herokuapp.com/'
+let BASE_URL = 'https://blackjack-back-mb.herokuapp.com/'
 const login = async (userObject) => {
   let res = await fetch(`${BASE_URL}token-auth/`, {
     method: 'POST',
