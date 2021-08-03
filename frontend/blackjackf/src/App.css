@@ -1,0 +1,105 @@
+html {
+  background-color: #171A29;
+}
+
+h1, p {
+  color: white;
+}
+
+h3 {
+  color: #7A9EB4;
+}
+
+/* LANDING PAGE */
+
+.hero-section {
+  color:white;
+}
+.hero-image {
+  background-image:  url("./images/CityPicture.jpg");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  color: white;
+}
+
+/* ABOUT PAGE */
+
+.about-top-banner {
+  width: 100vw;
+  height: 300px;
+}
+
+.about-bottom-banner {
+  width: 100vw;
+  height: 300px;
+}
+.about-body-container {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+}
+
+.about-body-paragraph {
+  width: 30%;
+}
+
+/* HOW TO PLAY PAGE */
+
+.howtoplay-top-banner {
+  height: 33vh;
+  width: 100vw;
+}
+
+.howtoplay-bottom-banner {
+  height: 40vh;
+  width: 100vw;
+}
+
+.howtoplay-body-container {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+}
+
+.howtoplay-body-paragraph {
+  width: 30%;
+}
+
+/* CONTACT PAGE */
+
+.contact-heading {
+  text-align: center;
+}
+
+.contact-main-container {
+  background-image: url("./images/blackjackTable.jpeg");
+  height: 600px;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 2%;
+}
+
+.contact-card-container {
+  padding-top: 7%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}

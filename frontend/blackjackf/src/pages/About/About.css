@@ -1,0 +1,33 @@
+.banner{
+    height: 33vh;
+    width: 100vw;
+}
+.bottomBanner{
+    height: 40vh;
+    width: 100vw;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    align-items: center;
+    margin: 0 auto;
+}
+.a-title{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #7A9EB4;
+}
+
+.a-body{
+    font-size: 18px;
+    margin-top: 6px;
+    color: white;
+}
+
